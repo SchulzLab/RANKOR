@@ -157,6 +157,24 @@ python RANKOR_prior.py --help
 
 ## Full Pipeline (Reproducibility)
 
+
+
+## Notes
+- `--train_h5ad` is used to define the reference **gene list/order** and the **drug library** (`cmap_name`, `canonical_smiles`).
+- Fingerprints are **Morgan radius=1, nBits=256**.
+
+## Training (optional)
+If you want to reproduce training, run scripts in this order:
+
+1. `scripts/01_preprocess_lincs.py`
+2. `scripts/02_prepare_tas_high_splits.py`
+3. `scripts/03_train_transcriptome_latent_space.py`
+4. `scripts/05_train_chemical_latent_space.py`
+5. `scripts/06_train_cross_space_mapping.py`
+6. `scripts/07_test_drug_prioritisation.py`
+
+
+
 ### Step 1 — Download LINCS L1000 data
 
 ```bash

@@ -1,7 +1,9 @@
 # RANKOR: Direct Drug Prioritization from Bulk and Single-Cell Transcriptomic Signatures
  
 ![RANKOR](RANKOR_OVERVIEW.png)
-
+<p align="center">
+  <img src="RANKOR_OVERVIEW.png" width="500"/>
+</p>
 
 ## Overview
 
@@ -45,3 +47,7 @@ Overall, RANKOR enables scalable and flexible **transcriptomics-driven drug disc
 
 - **Interpretability**  
   Provides gene-level attribution analyses highlighting biologically meaningful transcriptional programs.
+
+## Usage 
+
+

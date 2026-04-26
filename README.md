@@ -112,40 +112,6 @@ RANKOR requires:
 
 ---
 
-#### 4. Run drug prioritization
-
-```bash
-python -m rankor.cli \
-  --input path/to/profile.csv \
-  --train_h5ad reference_Dataset.h5ad \
-  --expression_encoder_ckpt checkpoints/expression_encoder.pth \
-  --drug_encoder_ckpt checkpoints/drug_encoder.pth \
-  --regressor_ckpt checkpoints/drug_prioritisation.pth \
-  --out_csv out_ranked_drugs.csv \
-  --topk 100 \
-  --print_top 20
-```
-
----
-
-### Output
-
-The output CSV contains:
-
-- `rank`
-- `drug_name`
-- `cosine_similarity`
-
----
-
-### Legacy command
-
-```bash
-python RANKOR_prior.py --help
-```
-
----
-
 ## How RANKOR Works
 
 1. Load reference dataset  
@@ -185,6 +151,8 @@ To see all available options:
 ```bash
 python RANKOR_prior.py --help
 ```
+
+---
 
 
 ## Full Pipeline (Reproducibility)

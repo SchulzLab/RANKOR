@@ -2,7 +2,7 @@
  
 ![RANKOR](RANKOR_OVERVIEW.png)
 
-\section*{Overview}
+## Overview}
 
 RANKOR is a machine learning framework for \textbf{direct drug prioritization from bulk and single-cell transcriptomic signatures}. 
 Unlike traditional enrichment or signature-matching approaches, RANKOR learns structured representations of gene expression and chemical space to enable efficient and scalable ranking of candidate compounds.
@@ -13,7 +13,7 @@ A cross-modal mapping connects both spaces, allowing transcriptomic signatures t
 RANKOR achieves performance \textbf{comparable to GSEA}, while demonstrating strong generalization to unseen compounds and cellular contexts, as well as substantially reduced computational runtime. 
 Additionally, the model provides biologically meaningful gene-level attributions, supporting interpretability of drug prioritization results.
 
-\section*{Key Contributions}
+##  Key Contributions
 
 \begin{itemize}
     \item \textbf{Direct drug prioritization:} Formulates drug ranking as the primary task, avoiding indirect inference via enrichment or similarity matching.

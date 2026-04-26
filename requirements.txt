@@ -1,0 +1,28 @@
+## RANKOR minimal runtime + scripts dependencies (pip)
+##
+## Notes:
+## - RDKit is often easiest via conda; see environment.yml for the recommended setup.
+## - If you only want inference (ranking), you can omit visualization libs (plotly/seaborn/matplotlib/umap-learn).
+
+numpy
+pandas
+scikit-learn
+scipy
+
+torch
+
+scanpy
+anndata
+
+rdkit-pypi
+
+openpyxl
+
+plotly
+matplotlib
+seaborn
+umap-learn
+
+pytorch-metric-learning
+cmapPy
+

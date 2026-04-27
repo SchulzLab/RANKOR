@@ -1,7 +1,7 @@
 # RANKOR: Direct Drug Prioritization from Bulk and Single-Cell Transcriptomic Signatures
  
 <p align="center">
-  <img src="RANKOR_OVERVIEW.png" width="600"/>
+  <img src="RANKOR_OVERVIEW.png" width="700"/>
 </p>
 
 

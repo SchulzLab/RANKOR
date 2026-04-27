@@ -115,7 +115,7 @@ RANKOR requires:
 ## How RANKOR Works
 
 1. Load reference dataset  
-2. Align input gene profile  
+2. Filtered and sorted input gene profile  
 3. Encode transcriptomic signature  
 4. Encode drugs from SMILES  
 5. Map transcriptomic → chemical space  
